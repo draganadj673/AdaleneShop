@@ -1,0 +1,121 @@
+[   {
+        "id" : 1,
+        "img" : "assets/img/shoptorba1.jpg",
+        "title" : "Elegant Leather Bag",
+        "categoryId" : 1,
+        "brandId": 2,
+        "price" : 2500,
+        "discount" : 10,
+        "stock" : 12
+    },
+    {
+        "id" : 2,
+        "img" : "assets/img/shoptorba2.jpg",
+        "title" : "Stylish Clutch",
+        "categoryId" : 1,
+        "brandId": 3,
+        "price" : 3000,
+        "discount" : 20,
+        "stock" : 7
+    },
+    {
+        "id" : 3,
+        "img" : "assets/img/shoptorba3.jpg",
+        "title"  : "Casual Tote",
+        "categoryId" : 1,
+        "brandId": 4,
+        "price" : 1000,
+        "discount" : 0,
+        "stock" : 10
+    },
+    {
+        "id" : 4,
+        "img" : "assets/img/shoptorba4.jpg",
+        "title" : "Casual Tote",
+        "categoryId" : 1,
+        "brandId": 4,
+        "price" : 1000,
+        "discount" : 0,
+        "stock" : 5
+    },
+    {
+        "id" : 5,
+        "img" : "assets/img/shoptorba5.jpg",
+        "title"  : "Elegant Leather Bag",
+        "categoryId" : 1,
+        "brandId": 1,
+        "price" : 1550,
+        "discount" : 15,
+        "stock" : 9
+    },
+    {
+        "id" : 6,
+        "img" : "assets/img/shoptorba6.jpg",
+        "title"  : "Stylish Clutch",
+        "categoryId" : 1,
+        "brandId": 2,
+        "price" : 3000,
+        "discount" : 0,
+        "stock" : 20
+    },
+    {
+        "id" : 7,
+        "img" : "assets/img/shopkais.jpg",
+        "title" : "Casual belt",
+        "categoryId" : 3,
+        "brandId": 2,
+        "price" : 1000,
+        "discount" : 12,
+        "stock" : 30
+    },
+    {
+        "id" : 8,
+        "img" : "assets/img/shopkais2.jpg",
+        "title" : "Elegant belt",
+        "categoryId" : 3,
+        "brandId": 1,
+        "price" : 1000,
+        "discount" : 0,
+        "stock" : 50
+    },
+    {
+        "id" : 9,
+        "img" : "assets/img/shopnovcanik1.jpg",
+        "title" : "Casual wallet",
+        "categoryId" : 2,
+        "brandId": 3,
+        "price" : 700,
+        "discount" : 0,
+        "stock" : 17
+    },
+    {
+        "id" : 10,
+        "img" : "assets/img/shopnovcanik2.jpg",
+        "title" : "Elegant wallet",
+        "categoryId" : 2,
+        "brandId": 4,
+        "price" : 900,
+        "discount" : 5,
+        "stock" : 7
+    },
+    {
+        "id" : 11,
+        "img" : "assets/img/shopkais2.jpg",
+        "title" : "Elegant belt",
+        "categoryId" : 3,
+        "brandId": 1,
+        "price" : 400,
+        "discount" : 0,
+        "stock" : 3
+    },
+    {
+        "id" : 12,
+        "img" : "assets/img/shopnovcanik3.jpg",
+        "title" : "Elegant wallet",
+        "categoryId" : 2,
+        "brandId": 2,
+        "price" : 850,
+        "discount" : 5,
+        "stock" : 11
+    }
+]
