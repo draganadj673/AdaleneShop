@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="assets/css/style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Adalene shop</title>
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <a href="index.html">Adalene</a>
+        </div>
+        <div id="navigacija-korpa">
+            <div id="navigacija">
+                <ul>
+                    <li><a class="activ" href="index.html">Home</a></li>
+                    <li><a href="shopAll.html">Shop All</a></li>
+                    <li><a href="#shop">Our Story</a></li>
+                    <li><a href="author.html">Author</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div id="korpa">
+                <i class="bi bi-cart fs-2"></i>
+                <span id="cartCount">0</span>
+                <button id="clearCart">Obriši korpu</button>
+                <div id="cartItems"></div>
+                <div id="message"></div>
+            </div>
+        </div>
+    </div>
+    <div class="image-container">
+         <div class="overlay-text">
+             <h1>CUE THE COLOR</h1>
+             <a href="#">Shop the collection</a>
+        </div>
+    </div>
+   <div class="shopAll">
+        <h2>Shop All</h2>
+       
+        <div class="products"></div>
+
+        <!-- Navigacija za slider/paginaciju -->
+        <div id="pagination"></div>
+
+        <div class="shop-btn">
+            <a href="shopAll.html" id="shop" class="btn">Shop All Bags</a>
+        </div>
+    </div>
+    <div id="ourStory" class="full-width-title">
+        <h2>Our Story</h2>
+     </div>
+
+  <!-- Glavna sekcija -->
+  <div class="section">
+    <div class="text">
+      <h3>THE BRAND</h3>
+      <p>
+        Dobrodošli u našu prodavnicu.
+        Naša priča počinje sa strašću prema koži(materijalu) koji je vekovima simbol elegancije, trajnosti i stila. U ponudi imamo pažljivo izrađene torbe, novčanike i kaiševe od najkvalitetnije kože, kreirane da prate tvoj ritam života i istaknu tvoju jedinstvenu ličnost.
+        Svaki komad je rezultat posvećenosti detaljima: od preciznog šava, preko funkcionalnog dizajna, do završne obrade koja garantuje dugotrajnost. Naš cilj nije samo da ti ponudimo aksesoar, već da ti pružimo pouzdanog saputnika – bilo da je to torba za svakodnevne obaveze, novčanik koji čuva tvoje dragocenosti ili kaiš koji upotpunjuje tvoj izgled.
+        Verujemo da kožni proizvodi nisu prolazni trend, već ulaganje u kvalitet i stil koji traje. Zato kod nas možeš pronaći klasiku koja nikada ne izlazi iz mode, ali i moderne komade koji prate savremene linije i boje.
+      </p>
+    </div>
+    <div class="image">
+      <img src="assets/img/our-story.jpg" alt="Brand Packaging">
+    </div>
+  </div>
+  <div class="full-width-title">
+        <h2>Gallery</h2>
+  </div>
+  <div class="banner-container">
+        <div class="banner-images">
+            
+        </div>
+        <div class="banner-text">
+            <p>Worldwide shipping</p>
+            <p>Easy 30 day returns</p>
+            <p>12 month warranty</p>
+        </div>
+  </div>
+ 
+  <footer class="site-footer">
+        <div class="footer-social">
+            <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+        </div>
+
+        <div class="footer-links">
+            <a href="sitemap.xml">Sitemap</a>
+            <a href="rss.xml">RSS</a>
+            <a href="docs.html">Dokumentacija</a>
+            <a href="style.min.css">Minifikovan CSS</a>
+            <a href="script.min.js">Minifikovan JS</a>
+        </div>
+
+        <p class="footer-copy">&copy; 2026 Adalene. All rights reserved.</p>
+  </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
